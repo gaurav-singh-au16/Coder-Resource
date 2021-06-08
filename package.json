@@ -1,0 +1,26 @@
+{
+  "name": "coder-resource",
+  "version": "1.0.0",
+  "description": "Coder Resource is the webpage for developer, so they can find the revelant resources",
+  "main": "app.js",
+  "scripts": { 
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurav-singh-au16/Coder-Resource.git"
+  },
+  "author": "Gaurav Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaurav-singh-au16/Coder-Resource/issues"
+  },
+  "homepage": "https://github.com/gaurav-singh-au16/Coder-Resource#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "mongoose": "^5.12.13"
+  }
+}
