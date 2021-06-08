@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const ResourceSchema = new mongoose.Schema({
-    developerId = [type = mongoose.Schema.Types.ObjectId],
+    developerId : [type = mongoose.Schema.Types.ObjectId],
     question: {
         type: String,
         required: true

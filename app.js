@@ -19,6 +19,7 @@ mongoose.connect(DATABASE, {
 const homeRoutes = require("./routes/home")
 const askQuestionRoutes = require("./routes/askQuestion")
 const postResourceRoutes = require("./routes/postResource")
+const loginSignupRoutes = require("./routes/loginSignup")
 
 app.engine('.hbs', exphbs({
     extname: '.hbs',
@@ -32,6 +33,7 @@ app.use(express.static("script"))
 app.use("", homeRoutes)
 app.use("", askQuestionRoutes)
 app.use("", postResourceRoutes)
+app.use("", loginSignupRoutes)
 
 app.listen(process.env.PORT || 3000, () => {
     console.log("Server Started @ 3000")
